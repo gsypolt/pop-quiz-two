@@ -1,7 +1,7 @@
 # Pop Quiz Detais
 
-This activity will help us understand scripting gaps occurring and how we want to shape the next round of training.  
-
+This activity will help us understand scripting gaps occurring and how we want to shape the next round of training. This project includes necessary cucumber files and folders structure and Gherkin. To complete the pop quiz, you will need to write the step definition code for Quiz One and Quiz Two. 
+ 
 
 ## Setup
 
@@ -14,7 +14,7 @@ $ bundle
 
 ```
 
-## Quiz 1:
+## Quiz One:
 For this pop quiz you will be using a scenario outline to navigate all the top level fronts and validate that correct front appears. 
 
 Specs: 
@@ -32,7 +32,7 @@ $ cucumber --tags @quiz1
 ````
 
 
-## Quiz 2:
+## Quiz Two:
 For this pop quiz you will be using a scenario outline to navigate Videos & Photos then validate user can filter and only see filter media appear on screen.
 
 Specs:
