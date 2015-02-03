@@ -1,5 +1,8 @@
 # Pop Quiz Detais
 
+This activity will help us understand scripting gaps occurring and how we want to shape the next round of training.  
+
+
 ## Setup
 
 ```
