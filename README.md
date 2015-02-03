@@ -1,16 +1,15 @@
 # Pop Quiz Detais
 
 ## Setup
+
 ```
 $ Open Terminal
 $ mkdir ~/work/github
 $ cd ~/work/github
 $ git clone https://github.com/gsypolt/pop-quiz-two.git
 $ bundle
-$ cucumber --tags @quiz1
 
 ```
-
 
 ## Quiz 1:
 For this pop quiz you will be using a scenario outline to navigate all the top level fronts and validate that correct front appears. 
@@ -22,6 +21,12 @@ Specs:
 Gherkin Description:
 * Go directly to each section front with out using the clicking workflow by passing the captured "href" base_url(path) (i.e. mhigh.usatoday.com/news/)
 * Add an assertion to validate correct front appears (hint: header/banner class)
+
+Execute Scenario:
+```
+$ cucumber --tags @quiz1
+
+````
 
 
 ## Quiz 2:
@@ -35,3 +40,9 @@ Gherkin Description:
 * Go directly to Videos & Photos section.
 * Change filter to videos only, photos only, and filter all
 * Add an assertion to validate media item appearing on screen matches the filter option selected (video only, photo only, or both)
+
+Execute Scenario:
+```
+$ cucumber --tags @quiz2
+
+````
