@@ -4,8 +4,10 @@
 For this pop quiz you will be using a scenario outline to navigate all the top level fronts and validate that correct front appears. 
 
 Instructions: Write Code
-  * Go directly to each section front with out using clicking workflow. 
-  * Add an assertion to validate front header class matches. 
+ * Open Browser > mhigh.usatoday.com > Menu Button
+ * Inspect element for each section menu item (Home, News, Sports, etc.) and capture the HTML attribute "href"
+ * Using the captured "href" to go directly to each section front with out using the clicking workflow. (i.e. mhigh.usatoday.com/news/)
+ * Add an assertion to validate correct front appears (hint: header/banner class)
 
 
 ## Quiz 2:
