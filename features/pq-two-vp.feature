@@ -1,12 +1,7 @@
 Feature: USAT Videos & Photos
   For this pop quiz you will be using a scenario outline to navigate Videos & Photos then validate user can filter and only see filter media appear on screen.
 
-  Instructions: Write Code
-  - Go directly to Videos & Photos section.
-  - Change filter to videos only, photos only, and filter all.
-  - Validate media appearing on screen matches the filter option selected.
-
-  @video_photos @filter_only
+  @quiz2 @filter_only
   Scenario Outline: Filter by Videos Only
     When Go directly to "<href>" front
     And Filter "<filter_type>" from Media Type Overlay
@@ -18,7 +13,7 @@ Feature: USAT Videos & Photos
     |         |             |
     |         |             |
 
-  @video_photos @filter_all
+  @quiz2 @filter_all
   Scenario: Filter by All Types
     When Go directly to "/media/" front
     And Filter "All" from Media Type Overlay
