@@ -2,6 +2,7 @@
 source "https://rubygems.org"
 
 # gem "rails"
+gem 'rspec'
 gem 'cucumber'
 gem 'capybara'
 gem 'selenium-webdriver', '2.43.0'

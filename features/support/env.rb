@@ -1,3 +1,4 @@
+require 'rspec'
 require 'capybara/cucumber'
 require 'selenium-webdriver'
 require 'timeout'
