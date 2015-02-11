@@ -2,7 +2,7 @@ Feature: USAT Videos & Photos
   For this pop quiz you will be using a scenario outline to navigate Videos & Photos then validate user can filter and only see filter media appear on screen.
 
   @quiz2 @filter_only
-  Scenario Outline: Filter by Videos Only
+  Scenario Outline: Filter by Videos Only and Photos Only
     When Go directly to "<href>" front
     And Filter "<filter_type>" from Media Type Overlay
     Then I should see "<filter_type>" heading
